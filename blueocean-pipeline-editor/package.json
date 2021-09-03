@@ -18,7 +18,9 @@
     "bundle:watch": "jjsbuilder --tasks bundle:watch",
     "mvnbuild": "jjsbuilder --tasks lint,bundle",
     "mvnbuild:fast": "jjsbuilder --tasks bundle",
-    "mvntest": "jjsbuilder --tasks test"
+    "mvntest": "jjsbuilder --tasks test",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "Josh McDonald <josh@joshmcdonald.info> (https://github.com/sophistifunk)",
   "license": "MIT",
@@ -69,7 +71,8 @@
     "react-dnd": "2.5.4",
     "react-dnd-html5-backend": "2.5.4",
     "react-dom": "15.4.2",
-    "react-router": "2.8.1"
+    "react-router": "2.8.1",
+    "@snyk/protect": "latest"
   },
   "jenkinscd": {
     "import": [
@@ -114,5 +117,6 @@
         }
       ]
     ]
-  }
+  },
+  "snyk": true
 }
