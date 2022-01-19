@@ -53,9 +53,9 @@
     "@jenkins-cd/js-extensions": "0.0.44",
     "mobx": "2.6.0",
     "mobx-react": "3.5.7",
-    "react": "15.4.2",
-    "react-addons-css-transition-group": "15.4.2",
-    "react-dom": "15.4.2",
+    "react": "16.5.0",
+    "react-addons-css-transition-group": "15.6.0",
+    "react-dom": "16.5.0",
     "react-i18next": "1.10.1",
     "react-router": "2.8.1"
   },
