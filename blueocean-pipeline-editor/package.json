@@ -64,11 +64,11 @@
     "mobx": "2.6.0",
     "mobx-react": "3.5.7",
     "mobx-utils": "1.1.2",
-    "react": "15.4.2",
-    "react-addons-css-transition-group": "15.4.2",
+    "react": "16.5.0",
+    "react-addons-css-transition-group": "15.6.0",
     "react-dnd": "2.5.4",
     "react-dnd-html5-backend": "2.5.4",
-    "react-dom": "15.4.2",
+    "react-dom": "16.5.0",
     "react-router": "2.8.1"
   },
   "jenkinscd": {
