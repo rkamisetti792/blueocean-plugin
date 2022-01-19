@@ -47,15 +47,15 @@
     "i18next": "3.5.2",
     "i18next-browser-languagedetector": "1.0.0",
     "i18next-xhr-backend": "1.2.0",
-    "isomorphic-fetch": "2.2.1",
+    "isomorphic-fetch": "3.0.0",
     "jsonwebtoken": "7.1.9",
     "mobx": "2.6.0",
     "mobx-utils": "1.1.2",
     "moment": "2.19.3",
     "moment-duration-format": "2.2.2",
     "pem-jwk": "1.5.1",
-    "react": "15.4.2",
-    "react-dom": "15.4.2",
+    "react": "16.5.0",
+    "react-dom": "16.5.0",
     "react-router": "2.8.1"
   },
   "devDependencies": {
