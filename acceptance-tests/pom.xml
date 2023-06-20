@@ -46,7 +46,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
+            <version>4.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -319,7 +319,7 @@
             </activation>
             <properties>
                 <node.download.file>node-v${node.version}-linux-x64.tar.gz</node.download.file>
-                <node.download.classifier />
+                <node.download.classifier/>
             </properties>
         </profile>
         <profile>
@@ -331,7 +331,7 @@
             </activation>
             <properties>
                 <node.download.file>node-v${node.version}-darwin-x64.tar.gz</node.download.file>
-                <node.download.classifier />
+                <node.download.classifier/>
             </properties>
         </profile>
         <profile>
@@ -370,7 +370,7 @@
             </activation>
             <properties>
                 <node.download.file>win-x86/node.exe</node.download.file>
-                <node.download.classifier />
+                <node.download.classifier/>
             </properties>
         </profile>
 
