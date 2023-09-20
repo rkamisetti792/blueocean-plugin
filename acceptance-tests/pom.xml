@@ -103,7 +103,7 @@
         <dependency>
             <groupId>org.eclipse.jgit</groupId>
             <artifactId>org.eclipse.jgit.junit</artifactId>
-            <version>4.8.0.201705170830-rc1</version>
+            <version>6.6.1.202309021850-r</version>
         </dependency>
         <dependency>
             <groupId>com.google.inject.extensions</groupId>
@@ -319,7 +319,7 @@
             </activation>
             <properties>
                 <node.download.file>node-v${node.version}-linux-x64.tar.gz</node.download.file>
-                <node.download.classifier />
+                <node.download.classifier/>
             </properties>
         </profile>
         <profile>
@@ -331,7 +331,7 @@
             </activation>
             <properties>
                 <node.download.file>node-v${node.version}-darwin-x64.tar.gz</node.download.file>
-                <node.download.classifier />
+                <node.download.classifier/>
             </properties>
         </profile>
         <profile>
@@ -370,7 +370,7 @@
             </activation>
             <properties>
                 <node.download.file>win-x86/node.exe</node.download.file>
-                <node.download.classifier />
+                <node.download.classifier/>
             </properties>
         </profile>
 
