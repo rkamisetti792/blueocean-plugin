@@ -98,7 +98,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.25</version>
+            <version>1.7.34</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jgit</groupId>
@@ -113,7 +113,7 @@
         <dependency>
             <groupId>com.github.eirslett</groupId>
             <artifactId>frontend-plugin-core</artifactId>
-            <version>1.0</version>
+            <version>1.11.0</version>
         </dependency>
         <!--Needed to preempt wiremock from loading older version and breaking, that breaking serialization -->
         <dependency>
@@ -124,7 +124,7 @@
         <dependency>
             <groupId>com.github.tomakehurst</groupId>
             <artifactId>wiremock</artifactId>
-            <version>2.7.1</version>
+            <version>3.0.0</version>
         </dependency>
         <!-- end wiremock -->
         <dependency>
@@ -319,7 +319,7 @@
             </activation>
             <properties>
                 <node.download.file>node-v${node.version}-linux-x64.tar.gz</node.download.file>
-                <node.download.classifier />
+                <node.download.classifier/>
             </properties>
         </profile>
         <profile>
@@ -331,7 +331,7 @@
             </activation>
             <properties>
                 <node.download.file>node-v${node.version}-darwin-x64.tar.gz</node.download.file>
-                <node.download.classifier />
+                <node.download.classifier/>
             </properties>
         </profile>
         <profile>
@@ -370,7 +370,7 @@
             </activation>
             <properties>
                 <node.download.file>win-x86/node.exe</node.download.file>
-                <node.download.classifier />
+                <node.download.classifier/>
             </properties>
         </profile>
 
