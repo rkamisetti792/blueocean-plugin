@@ -1,0 +1,19 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - '@jenkins-cd/blueocean-core-js > jsonwebtoken > joi > hoek':
+        patched: '2024-09-10T14:09:42.527Z'
+        id: 'npm:hoek:20180212'
+        path: '@jenkins-cd/blueocean-core-js > jsonwebtoken > joi > hoek'
+    - '@jenkins-cd/blueocean-core-js > jsonwebtoken > joi > topo > hoek':
+        patched: '2024-09-10T14:09:42.527Z'
+        id: 'npm:hoek:20180212'
+        path: '@jenkins-cd/blueocean-core-js > jsonwebtoken > joi > topo > hoek'
+  'npm:ms:20170412':
+    - '@jenkins-cd/blueocean-core-js > jsonwebtoken > ms':
+        patched: '2024-09-10T14:09:42.527Z'
+        id: 'npm:ms:20170412'
+        path: '@jenkins-cd/blueocean-core-js > jsonwebtoken > ms'
