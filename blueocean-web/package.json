@@ -15,7 +15,9 @@
     "bundle:watch": "gulp bundle:watch",
     "mvnbuild": "gulp lint bundle && browserify src/main/js/ie/iepolyfills.js > target/classes/org/jenkins/ui/jsmodules/blueocean-web/iepolyfills.js",
     "mvnbuild:fast": "gulp bundle",
-    "mvntest": "gulp test"
+    "mvntest": "gulp test",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "@jenkins-cd/js-builder": "0.0.63",
@@ -59,7 +61,8 @@
     "react-redux": "4.4.5",
     "react-router": "2.8.1",
     "redux": "3.6.0",
-    "redux-thunk": "2.1.0"
+    "redux-thunk": "2.1.0",
+    "@snyk/protect": "latest"
   },
   "jenkinscd": {
     "import": [
@@ -101,5 +104,6 @@
         "tsify"
       ]
     ]
-  }
+  },
+  "snyk": true
 }
